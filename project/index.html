@@ -8,25 +8,59 @@
     <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
+    <div class="wrapper"> 
+        <header class="header-container">
+            <img src="image/logo.svg" alt="Logo" class="logo">
+            <nav class="header-nav">
+                <a href="#">Stays</a>
+                <a href="#">Attractions</a>
+                <a href="#"><img src="image/Night.svg" alt="Night mode"></a>
+                <a href="#"><img src="image/AccountCircle.svg" alt="Account"></a>
+            </nav>
+        </header>
+            <section class="container container-search">
+                <h1 class="title-section-search">Discover stays to live, work or just relax</h1>
+                <form action="/" method="GET" class="form-search">
+                    <div class="wrapper-label">
+                        <label for="destination-or-hotel">Your destination or hotel name</label>
+                        <label for="date-range">Check-in — Check-out</label>
+                    </div>
+                    <div class="wrapper-input">
+                        <input type="text" name="destination-or-hotel" placeholder="New York" id="destination-or-hotel">
+                        <input type="date" name="data-range" id="date-range" value="2021-05-11">
+                        <input type="text" name="accommodation" class="accommodation" placeholder="2 Adults — 0 Children — 1 Room">
+                        <input type="submit" class="btn-search" value="Search">
+                    </div>
+                </form>
+                <div class="app-gallery">
+                    <a href="https://play.google.com">
+                        <img src="image/google-play-badge.svg" alt="google">
+                    </a>
+                    <a href="https://apps.apple.com">
+                        <img src="image/App_Store_Badge.svg" alt="app-store">    
+                    </a>
+                </div>
+            </section>
+        </div>
+    </div>
     <div class="container">
         <h1 class="container-title">What do we offer</h1>
         <div class="line"></div>
         <div class="container-icon">
             <div class="icon-support icon">
-                <img src="image/Vector-3.svg" alt="Support">
+                <img src="image/support-icon.svg" alt="Support">
                 <p>Support 24/7</p>
             </div>
             <div class="icon-communicate icon">
-                <img src="image/Vector-2.svg" alt="Communicate">
+                <img src="image/communicate-icon.svg" alt="Communicate">
                 <p>Communicate directly</p>
             </div>
             <div class="icon-book icon">
-                <img src="image/Vector-1.svg" alt="Book">
+                <img src="image/book-icon.svg" alt="Book">
                 <p>Book online</p>
             </div>
             <div class="icon-reviews icon">
-
-                <img src="image/Vector.svg" alt="Reviews">
+                <img src="image/reviews-icon.svg" alt="Reviews">
                 <p>Real guest reviews</p>
             </div>
         </div>
